@@ -1,0 +1,86 @@
+
+/* Smartphones */
+@media (max-width: 500px) {
+    #showcase {
+        height:300px;
+    }
+    #showcase .showcase-content{
+        height:300px;
+        padding-top: 10px;
+    }
+    .showcase-content .lead{
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+    #showcase .l-heading{
+        padding-bottom: 20px;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        margin-left: 150px;
+       
+    }
+    #navbar ul{
+        float: none;
+        margin-left: 100px;
+    }
+    .l-heading{
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 3rem;
+    }
+    #what{
+        height: 500px;
+    }
+    #what .items{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 400px;
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+    #what .items .item{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10px;
+        text-align: justify;
+        
+    }
+    #what .items .item i{
+        margin: 10px;
+    }
+    #what .items .item p{
+        margin-bottom: 10px;
+    }
+    #what .m-heading{
+        padding-bottom: 10px;
+    }
+    #who{
+        display: flex;
+        height: 400px;
+    }
+    #who .who-img{
+        flex: 0;
+    }
+    #who .list{
+        width: 450px;
+    }
+    #who .list li{
+        line-height: 2rem
+    }
+    #who .who-text .m-heading{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #clients .container .m-heading{
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
